@@ -1,0 +1,10 @@
+{application, regexp_list,
+ [
+  {description, "regexp_list:first/3 get first matching re from a re list and string"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib,
+                  asn1]},
+  {env, []}
+ ]}.
